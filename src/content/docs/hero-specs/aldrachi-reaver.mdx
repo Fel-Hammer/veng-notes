@@ -53,17 +53,23 @@ RG Sequences are the cornerstone of the Aldrachi Reaver rotation. Each sequence 
 
 #### Sequence Types
 
-1. **Cleave Sequence**: Reaver's Glaive > Soul Cleave > Fracture
+1. **Primary Sequence**: Reaver's Glaive > Soul Cleave > Fracture
    - Produces high AoE damage
    - Applies a single stack of Reaver's Mark
 
-2. **Fracture Sequence**: Reaver's Glaive > Fracture > Soul Cleave
+2. **Overflow Sequence**: Reaver's Glaive > Fracture > Soul Cleave
    - Generates lower AoE damage
    - Applies two stacks of Reaver's Mark
 
 <Aside type="caution" title="Fury Management">
-Prioritize Immolation Aura and Sigil of Flame, even if it disrupts your RG Sequence. A typical RG Sequence timing is: Reaver's Glaive + Fracture + Soul Cleave + Fury Generators (if necessary), usually taking about 3-4 GCDs.
+Prioritize Immolation Aura and Sigil of Flame, even if it disrupts your RG Sequence. A typical RG Sequence timing is about 3-4 GCDs.
 </Aside>
+
+The main idea with these sequences is fairly straightforward:
+
+1. Begin a new primary sequence at the end of the previous primary sequence's buff and debuff window
+2. If you can do so while meeting the appropriate conditions, cast an overflow sequence
+
 
 #### Timing of RG Sequences
 
@@ -73,7 +79,7 @@ In short, if your next RG Sequence will take 3 GCDs of time, you should start th
 
 ![RG Sequence example timeline](../../../assets/aldrachi-timeline.png)
 
-## Overflow Sequences
+#### Overflow Sequences
 
 Overflow Sequences occur when excess souls are generated beyond Reaver's Mark maintenance requirements. These sequences convert surplus souls into additional damage and buff uptime by casting Reaver's Glaive > Fracture > Cleave for a big burst of damage. These are a very large damage gain if executed well, and a very large damage loss if executed poorly.
 
@@ -84,15 +90,19 @@ Doing this well requires a very strong execution plan. When performing an Overfl
 - You have a fracture charge ready to use
 - You have enough fury to execute the Overflow Sequence.
 
-## Buff Windows
+## RG Cycles
 
-Buff Windows, or RG Cycles, consist of two phases with different active buff combinations:
+After casting an RG sequence you enter a buff window, or RG Cycle, consisting of two phases with different active buff combinations:
 
 1. **Full Buff Window** (0-10 seconds)
    - All buffs active: Thrill of the Fight (Attack Speed and Damage), Reaver's Mark
 
 2. **Partial Buff Window** (10-20 seconds)
    - Active buffs: Thrill of the Fight (Attack Speed), Reaver's Mark
+
+During the Full Buff Window, you are dealing the highest possible damage. This is the time to use your hardest hitting abilities, to line up other damage amplifications (like Fiery Brand or trinkets), and to use potions.
+
+Bear in mind, however, that you still need to be generating souls and spending them before your buff window runs out. This timing is very tight, and you will need to plan your execution carefully.
 
 #### GCD Allocation inside of RG Cycles
 
@@ -157,12 +167,12 @@ Conversely, talents related to Fel Devastation (**Darkglare Boon**, **Stoke the 
 <details>
 <summary>No Spirit Bomb Builds</summary>
 
-No Spirit Bomb builds are not recommended for Aldrachi Reaver. They are less damage in all scenarios. This is for three reasons:
-1. Spirit Bomb can consume souls quickly
+No Spirit Bomb builds are not recommended for Aldrachi Reaver. They are less damage in all scenarios. This is for a few reasons:
+1. Spirit Bomb helps consume souls quickly (see section on Soul Generation and Consumption)
 2. Spirit Bomb is fire damage and amplified by things like Burning Blood and Fiery Brand
 3. Spirit Bomb is uncapped AOE, so will be one of our strongest buttons in large AOE situations
 4. Spirit Bomb is a huge burst of healing, which synergizes well with Incorruptible Spirit
 
-The trade-off for dropping Spirit Bomb is a simplified rotation. =It's possible to play this way, but it comes at a significant cost.
+Many believe that the "benefit" of dropping Spirit Bomb is a simplified rotation. However, this is actually not true most of the time. Without Spirit Bomb to consume many souls at once, you will likely end up with an even harder rotation. Refer to the image above to see how this can be a problem -- if you have 6 GCDs to generate and consume enough souls, you cannot afford to spend several of them on soul cleave consumption.
 
 </details>
